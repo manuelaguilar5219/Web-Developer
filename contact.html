@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web developer-Contact</title>
+</head>
+<body>
+    <header>
+        <!-- header content goes here -->
+        <nav>
+            <!-- unordered list with 5 items -->
+             <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="dodgers.html" target="_self">Dodgers</a></li>
+                <li><a href="lakers.html" target="_self">Lakers</a></li>
+                <li><a href="rams.html" target="_self">Rams</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+             </ul>
+         </nav>
+         <h1>Contact</h1>
+    </header>
+    <main>
+         <!-- Beginning of the form element -->
+         <form action="/submit" method="post">
+            <!-- Label and text input field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name"> 
+
+            <br>
+
+             <!-- Label and email input field -->
+             <label for="email">Email:</label>
+             <input type="email" id="email" placeholder="Enter your email">
+
+             <br>
+
+             <!-- Label and subject input field -->
+             <label for="subject">Subject:</label>
+             <input type="text" id="subject" placeholder="Enter subject">
+
+             <br>
+
+             <!-- Label and message input field-->
+             <label for="message">Message:</label>
+             <input type="text" id="message" placeholder="enter message">
+
+             <br>
+
+             <!-- submit button to submit the form -->
+            <input type="submit" value="Submit">
+
+            <!-- Reset button to reset the form fields -->
+            <input type="reset" value="Reset">
+
+         </form> 
+         <!-- End of the form element-->
+    </main>
+</body>
+</html>
